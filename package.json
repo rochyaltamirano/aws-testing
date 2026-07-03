@@ -1,0 +1,29 @@
+{
+  "name": "aws-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochyaltamirano/aws-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rochyaltamirano/aws-testing/issues"
+  },
+  "homepage": "https://github.com/rochyaltamirano/aws-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.1078.0",
+    "dotenv": "^17.4.2"
+  }
+}
